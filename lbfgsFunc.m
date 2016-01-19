@@ -1,6 +1,5 @@
 function [opttheta, cost] = lbfgsFunc (visibleSize, hiddenSize, lambda, data, theta)
-% Use L-BFGS algorithm to minimize a function
-% This is function for you to use. You don't need to modify it.
+% Calls L-BFGS algorithm to minimize a function
 
 %  Randomly initialize the parameters if not specified
 if nargin < 5
